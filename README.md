@@ -1,7 +1,7 @@
 # buggyGhostInspector
 
 Docs attached:
-- PDF - Test Plan / Strategy / Report (if visualizing the file in Gitbub make sure you click on "view more pages" as teh document has 10 pages)
+- PDF - Test Plan / Strategy / Report (if visualizing the file in Gitbub make sure you click on "view more pages" as the document has 10 pages)
 - Json File - quick automation
 
 
