@@ -3,8 +3,7 @@
 Docs attached:
 - PDF - Test Plan / Strategy / Report
 - Json File - quick automation
-.
-.
+
 
 As I’m not familiar with C# and have a tight deadline for this trial, I ended up choosing a Codeless tool for the automation approach.
 
