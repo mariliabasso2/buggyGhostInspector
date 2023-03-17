@@ -1,0 +1,202 @@
+{
+    "autoRetry": null,
+    "browser": null,
+    "browserVersion": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "dataSource": null,
+    "disableVisuals": null,
+    "disallowInsecureCertificates": null,
+    "extensionVersion": "7.0.0",
+    "failOnJavaScriptError": null,
+    "filters": [],
+    "finalDelay": null,
+    "globalStepDelay": null,
+    "httpHeaders": [],
+    "importOnly": false,
+    "language": null,
+    "links": [],
+    "maxAjaxDelay": null,
+    "maxConcurrentDataRows": null,
+    "maxWaitDelay": null,
+    "name": "Test Buggy 1",
+    "notifications": null,
+    "publicStatusEnabled": false,
+    "region": null,
+    "screenshotCompareEnabled": null,
+    "screenshotCompareThreshold": 0.1,
+    "startUrl": "https://buggy.justtestit.org/",
+    "steps": [
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 0,
+            "target": "input[name=\"login\"]",
+            "value": null
+        },
+        {
+            "command": "assign",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 1,
+            "target": "input[name=\"login\"]",
+            "value": "Mariaaaa"
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 2,
+            "target": "input[name=\"password\"]",
+            "value": null
+        },
+        {
+            "command": "assign",
+            "condition": null,
+            "optional": false,
+            "private": true,
+            "sequence": 3,
+            "target": "input[name=\"password\"]",
+            "value": "Test123@"
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 4,
+            "target": [
+                {
+                    "selector": "//button[contains(text(), \"Login\")]"
+                },
+                {
+                    "selector": "button[type=\"submit\"]"
+                }
+            ],
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 5,
+            "target": "img[title=\"Alfa Romeo\"]",
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 6,
+            "target": "td:nth-of-type(5) > a[href=\"/model/c4u1mqnarscc72is00ng|c4u1mqnarscc72is00sg\"]",
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 7,
+            "target": "a[href=\"/overall\"] > img.img-fluid.center-block",
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 8,
+            "target": [
+                {
+                    "selector": "//a[contains(text(), \"»\")]"
+                },
+                {
+                    "selector": "div > a.btn:nth-of-type(2)"
+                }
+            ],
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 9,
+            "target": [
+                {
+                    "selector": "//a[contains(text(), \"Pagani\")]"
+                },
+                {
+                    "selector": "a[href=\"/make/c4u1mqnarscc72is00tg\"]"
+                }
+            ],
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 10,
+            "target": "td:nth-of-type(5) > a[href=\"/model/c4u1mqnarscc72is00tg|c4u1mqnarscc72is00u0\"]",
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 11,
+            "target": "#comment",
+            "value": null
+        },
+        {
+            "command": "assign",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 12,
+            "target": "#comment",
+            "value": "Test comment"
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 13,
+            "target": [
+                {
+                    "selector": "//button[contains(text(), \"Vote!\")]"
+                },
+                {
+                    "selector": "button.btn"
+                }
+            ],
+            "value": null
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 14,
+            "target": [
+                {
+                    "selector": "//a[contains(text(), \"Buggy Rating\")]"
+                },
+                {
+                    "selector": "a[href=\"/broken\"]"
+                }
+            ],
+            "value": null
+        }
+    ],
+    "testFrequency": 0,
+    "testFrequencyAdvanced": [],
+    "viewportSize": null
+}
