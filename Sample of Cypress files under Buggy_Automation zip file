@@ -1,0 +1,64 @@
+Sample of Cypress files under Buggy_Automation zip file
+
+In case of not downloading the zip file for any reason, here is sample of the tests attached: 
+
+**Login.cy.js**
+
+/// <reference types="cypress"/>
+describe('Opening URL', () => {
+  beforeEach(() => {
+    cy.visit('https://buggy.justtestit.org/')
+  })
+
+describe("Login/Logout", () => {
+  it("Logs in successfully", () => {
+    cy.get('input[name="login"]').type("Mariaaaa")
+    cy.get('input[name="password"]').type("Test123@")
+    cy.contains("Login").click()
+  })
+
+  it("LogOut", () => {
+    cy.get('input[name="login"]').type("Mariaaaa")
+    cy.get('input[name="password"]').type("Test123@")
+    cy.contains("Login").click()
+    cy.contains("Logout").click()
+
+  })
+  it("Logs in with invalid credentials", () => {
+    cy.get('input[name="login"]').type("Mariaaaaa")
+    cy.get('input[name="password"]').type("Test123@a")
+    cy.contains("Login").click()
+    cy.contains('Invalid username/password') //making sure error message is presented
+    
+  })
+
+})
+
+})
+
+**Models.cy.js**
+/// <reference types="cypress"/>
+describe('Opening URL', () => {
+    beforeEach(() => {
+      cy.visit('https://buggy.justtestit.org/')
+    })
+//Login
+    it("Logs in successfully", () => {
+      cy.get('input[name="login"]').type("Mariaaaa");
+      cy.get('input[name="password"]').type("Test123@")
+      cy.contains("Login").click()
+      cy.wait(1000)
+  //Checking models
+        cy.get('[class="card-header text-xs-center"]')
+        //cy.get('img.img-fluid.center-block[src="/img/cars/AR-logo.jpg"]').click() //there were 3 elements to select, had to find the correct image for Alfa Romeo
+        //Selecting the full list of models as I can't add comments to Alpha Romeo anymore
+        cy.get('img.img-fluid.center-block[src="/img/overall.jpg"]').click()
+        cy.get ('[class="btn"]').click() //navigating to the next page
+        cy.get('a[href="/model/c4u1mqnarscc72is00e0|c4u1mqnarscc72is00ig"]').contains('Reventón').click() //selecting the last model
+  //Adding a comment
+         cy.get('textarea[id="comment"]').type("Test with Cypress")
+         cy.contains('Vote!').click() 
+         //this test might fail if using this user as it's not possible adding more than one comment
+      })
+
+    })
