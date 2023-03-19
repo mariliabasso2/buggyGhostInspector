@@ -10,10 +10,11 @@ As I’m not familiar with C# and have a tight deadline for this trial, I ended 
  
 **1. Cypress**   
 Cypress is an end-to-end testing framework for web applications. It is an open-source JavaScript-based testing tool that allows developers/testers to       write and run automated tests for web applications. Its ease of use, intuitive syntax, and fast test execution times.
-      - Download the “buggy_automation” file
-       - main files for this test automation are:
-         Login.cy.js
-         Models.cy.js
+- Download the “buggy_automation” file
+- main files for this test automation are:
+- Login.cy.js
+- Models.cy.js
+         
 To install cypress, I have used the following sequence:
   Using the Visual Studio terminal, commands
   1. npm install cypress --save-dev
