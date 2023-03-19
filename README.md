@@ -1,4 +1,4 @@
-# buggyGhostInspector
+# buggy
 
 Docs attached:
 - PDF - Test Plan / Strategy / Report (if visualizing the file in Gitbub make sure you click on "view more pages" as the document has 10 pages)
