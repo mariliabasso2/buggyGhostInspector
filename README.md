@@ -15,11 +15,11 @@ Cypress is an end-to-end testing framework for web applications. It is an open-s
          Models.cy.js
 To install cypress, I have used the following sequence:
   Using the Visual Studio terminal, commands
-  - npm install cypress --save-dev
-  - npm install -g npm (if don’t have npm installed)
-  - npm start       
-  - npx cypress open   (to open cypress)    
-  - Follow instructions given by cypress installer
+  1. npm install cypress --save-dev
+  2. npm install -g npm (if don’t have npm installed)
+  3. npm start       
+  4. npx cypress open   (to open cypress)    
+  5. Follow instructions given by cypress installer
 
 
 **2. Ghost Inspector (Codeless tool)**
