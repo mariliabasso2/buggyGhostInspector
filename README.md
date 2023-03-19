@@ -2,7 +2,7 @@
 
 Docs attached:
 - PDF - Test Plan / Strategy / Report (if visualizing the file in Gitbub make sure you click on "view more pages" as the document has 10 pages)
-- buggy_automation” file - Cypress
+- Buggy Automation” zip file - Cypress
 - Json File - Ghost Inspector
 
 As I’m not familiar with C# and have a tight deadline for this trial, I ended up choosing 2 different approaches:
